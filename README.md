@@ -39,6 +39,15 @@ Developed by:Bindhujaa.S
 
 RegisterNumber:24901119
 
+```
+emodule experiment2(A,B,C,D,f1,w,x,y,z,f2);
+input A,B,C,D,w,x,y,z;
+output f1,f2;
+assign f1=((~B&~D)|(~A&B&D)|(A&B&~C));
+assign f2=((~y&z)|(x&y)|(w&y));
+endmodule
+```
+
 
 **RTL realization**
 
@@ -46,9 +55,13 @@ RegisterNumber:24901119
 
 
 **Output:**
+
+
 ![Screenshot 2024-12-05 145504](https://github.com/user-attachments/assets/368ab2fd-ddb9-438d-ba62-abd59d964cdc)
 
 **RTL**
+
+
 ![Screenshot 2024-12-05 144933](https://github.com/user-attachments/assets/218e9a5d-58bb-420a-aa11-d30313007af0)
 
 **Result:**
