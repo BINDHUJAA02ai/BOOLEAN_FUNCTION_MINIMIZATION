@@ -1,4 +1,9 @@
-# BOOLEAN_FUNCTION_MINIMIZATION
+Name:Bindhujaa.S
+
+RegisterNo:24901119
+
+
+**EXPERIMENT 2: BOOLEAN_FUNCTION_MINIMIZATION**
 
 **AIM:**
 
@@ -33,20 +38,8 @@ Hardware – PCs, Cyclone II , USB flasher
 
 **Program:**
 
-/* Program to implement the given logic function and to verify its operations in quartus using Verilog programming. 
+![Screenshot 2024-12-13 204927](https://github.com/user-attachments/assets/b9615f7a-2ad7-4160-ba7e-99f8e8b0da61)
 
-Developed by:Bindhujaa.S
-
-RegisterNumber:24901119
-
-```
-emodule experiment2(A,B,C,D,f1,w,x,y,z,f2);
-input A,B,C,D,w,x,y,z;
-output f1,f2;
-assign f1=((~B&~D)|(~A&B&D)|(A&B&~C));
-assign f2=((~y&z)|(x&y)|(w&y));
-endmodule
-```
 
 
 **RTL realization**
@@ -62,7 +55,9 @@ endmodule
 **RTL**
 
 
-![Screenshot 2024-12-05 144933](https://github.com/user-attachments/assets/218e9a5d-58bb-420a-aa11-d30313007af0)
+
+![Screenshot 2024-12-13 205247](https://github.com/user-attachments/assets/9cc3cf39-dac2-4c02-bc10-072b08280f1c)
+
 
 **Result:**
 
